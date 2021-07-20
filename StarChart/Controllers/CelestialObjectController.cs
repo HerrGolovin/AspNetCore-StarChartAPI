@@ -21,7 +21,7 @@ namespace StarChart.Controllers
         }
 
 
-        [HttpGet( "{int:id}", Name = "GetById" )]
+        [HttpGet( "{id:int}", Name = "GetById" )]
         public IActionResult GetById( int id )
         {
 
