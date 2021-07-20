@@ -130,7 +130,7 @@ namespace StarChart.Controllers
 
         }
 
-        [HttpPut("{id}")]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
 
